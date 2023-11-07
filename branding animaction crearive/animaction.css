@@ -1,0 +1,999 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=Roboto:wght@300;500;700;800;900&display=swap");
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+h2 {
+  font-size: 72px;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+}
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.collorfillhero {
+  padding-bottom: 80px;
+}
+
+.nav {
+  height: 80px;
+}
+.bg {
+  position: absolute;
+  left: 46%;
+}
+.bg img {
+  object-fit: cover;
+  width: 805px;
+  height: 740px;
+  animation: colorf normal;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes colorf {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.hero {
+  display: flex;
+  position: relative;
+}
+.left {
+  width: 49%;
+  line-height: 1.2;
+  color: #633be2;
+  padding: 50px 0 50px 30px;
+  margin: 100px 0;
+  /* position: relative;
+    animation: flo normal;
+    animation-duration: 3s;
+    /* animation-iteration-count: 3; */
+}
+
+.left h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 72px;
+  margin-top: 30px;
+  position: relative;
+  animation: flo normal;
+  animation-duration: 2s;
+}
+@keyframes flo {
+  0% {
+    left: -440px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+button.learn-1 {
+  margin-top: 40px;
+  padding: 20px 55px;
+  background: rgb(95, 68, 227);
+  background: linear-gradient(
+    286deg,
+    rgba(95, 68, 227, 0.9445028011204482) 20%,
+    rgba(40, 178, 241, 0.9389005602240896) 61%
+  );
+  border-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1px;
+  position: relative;
+  animation: sos normal;
+  animation-duration: 2.7s;
+}
+@keyframes sos {
+  0% {
+    left: -350px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+/* second second */
+.uidesing {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  width: 25%;
+  margin: 25px 0;
+  animation-name: leftToRight;
+  animation-direction: 2.5s;
+  animation-iteration-count: 3;
+  position: relative;
+  animation: leftToRight 1s ease-in-out;
+}
+@keyframes leftToRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+ 
+img.imagedes {
+  width: 25px;
+}
+.gridboxsecond {
+  display: flex;
+  flex-wrap: wrap;
+}
+.slabous {
+  display: flex;
+  flex-wrap: wrap;
+}
+h6.text-ui {
+  margin-left: 7px;
+
+}
+
+p.secondpara {
+  width: 52%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 2;
+  animation-direction: 2s;
+  animation-iteration-count: 3;
+  animation: psecond 1s ease-in-out;
+  animation-name: psecond normal;
+  position: relative;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+@keyframes psecond {
+     from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(10%);
+    }
+  }
+h2.What.We.Do {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  /* animation-name: whattop normal;
+  animation-direction: 2s;
+  animation-iteration-count: 3;
+  animation: whattop 1s ease-in-out; */
+}
+
+.h2.what.we.do:hover {
+  animation-name: whattop normal;
+  animation-direction: 2s;
+  animation-iteration-count: 3;
+  animation: whattop 1s ease-in-out;
+  cursor: pointer;
+}
+@keyframes whattop {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* third */
+.threesec {
+    position: relative;
+    padding: 170px 0;
+}
+.blanklinear{
+    width: 228px;
+    height: 228px;
+    background: linear-gradient(
+        286deg,
+        rgba(95, 68, 227, 0.9445028011204482) 20%,
+        rgba(40, 178, 241, 0.9389005602240896) 61%
+      );
+      border-radius: 150px;
+ animation-name: rotate normal;
+ animation-delay: 2s;
+ animation: spin 2s linear infinite;
+}
+
+  
+  @keyframes spin {
+    /* 0% { transform: rotate(0deg); } */
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+
+
+
+
+img.blackhood {
+    width: 758px;
+    height: 468px;
+}
+.aboutblavk {
+    padding: 20px 30px;
+}
+img.blackhood {
+    width: 758px;
+    height: 468px;
+    position: relative;
+    left: 10%;
+    bottom: 118px;
+    border-radius: 28px;
+}
+.third {
+    position: relative;
+    /* padding: 50px 0; */
+}
+.aboutblavk {
+    padding: 30px 40px;
+    width: 44%;
+    position: absolute;
+    top: 54%;
+    background: #f2f2f2;
+    left: 59%;
+    border-radius: 27px;
+}
+p.smallp {
+    line-height: 2;
+    margin-top: 20px;
+}
+/* fourth */
+.fourth{
+padding-top: 50px;
+background: #f2f2f2;
+margin-top: 25px;
+}
+.twotyp {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 2px ridge;
+    width: 100%;
+}
+.right1 {
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.twosect {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.left1 {
+    padding: 30px;
+    width: 50%;
+    margin-top: 11%;
+}
+p.parl1 {
+    line-height: 2;
+    margin-top: 25px;
+}
+img.smile {
+    width: 73px;
+    border-radius: 50px;
+    border: 5px solid #633be2;
+}
+.flow2 {
+    margin-left: 30px;
+}
+
+
+/* fifth */
+.liner-fifth {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 22%, rgba(242,242,242,1) 4%);
+}
+.blabk2 {
+    /* margin-top: 100px; */
+    position: relative;
+    left: 77%;
+    top: 75px;
+}
+.smile2 {
+    width: 632px;
+    height: 532px;
+    object-fit: cover;
+    border-radius: 15px;
+    float: right;
+    position: relative;
+    right: 135px;
+    top: -42px;
+}
+.formfive {
+    padding: 30px;
+    width: 43%;
+    position: relative;
+    background: rgb(255, 255, 255);
+    margin-top: 170px;
+    border-radius: 15px;
+}
+h2.capible {
+    width: 71%;
+    line-height: 1.1;
+    position: relative;
+    top: 120px;
+}
+p.pfive {
+    line-height: 2;
+    margin-top: 20px;
+}
+
+
+
+/* sixth */
+.flexitom-text {
+    width: 33%;
+    padding: 30px;
+    text-align: center;
+    line-height: 2;
+}
+
+.flexitom {
+    width: 33%;
+}
+.oooim {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+h2.sixhead {
+    margin: 80px !important;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.sixgridbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.six{
+    margin-bottom: 60px;
+}
+
+/* seventh */
+/* .seventh {
+    padding: 50px 0px;
+} */
+.seventh {
+    padding: 50px 0px 300px;
+}
+.sevengrid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+p.sven-p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+    line-height: 1.6;
+}
+h3.age {
+    font-size: 72px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    color: white;
+}
+h2.about-seven {
+    text-align: center;
+}
+.flex22 {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient( 198deg, rgba(95, 68, 227, 0.9445028011204482) 20%, rgba(40, 178, 241, 0.9389005602240896) 61% );
+    width: 22%;
+    border-radius: 20px;
+}
+p.p1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-top: 20px;
+    color: white;
+}
+/* eight */
+.phoneflex img {
+    width: 64px;
+    margin-top: 25px;
+}
+.phoneflex {
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.phone-bar {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: -155px;
+}
+p.Bihar {
+    margin-top: 20px;
+    line-height: 2.3;
+}
+h5.office {
+    margin-top: 20px;
+}
+/* eight part second */
+input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-style: none;
+  
+}
+label {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+.frame-one {
+    display: flex;
+    position: relative;
+    top: -100px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.frame-frist {
+    padding: 30px;
+}
+.bar-flex {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+button.sub {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    border-style: none;
+    background-color: #ed5e00;
+    color: white;
+
+}
+input#massage {
+    width: 100%;
+    height: 155px;
+    padding: 10px;
+    border-style: none;
+}
+.frame-decond {
+    padding: 30px;
+    width: 50%;
+}
+
+
+
+.foot{
+    background: linear-gradient( 311deg, rgba(95, 68, 227, 0.9445028011204482) 20%, rgba(40, 178, 241, 0.9389005602240896) 61% ); 
+}
+.frame-decond h6 {
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+.frame-decond p{
+margin-top: 20px;
+line-height: 2;
+color: aliceblue;
+}
+.font {
+    font-size: 41px;
+    margin-top: 10px;
+}
+
+.font i{
+    color: aliceblue;
+    margin-right: 15px;
+}
+
+/* tab mediaquary//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////tab////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 1024px) {
+    h2 {
+        font-size: 60px;
+        font-family: "Roboto", sans-serif;
+    }
+  .bg img {
+    object-fit: cover;
+    width: 729px;
+    height: 665px;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    line-height: 1.2;
+    color: #633be2;
+    padding: 50px 0 50px 0px;
+    margin: 25px 0;
+  }
+  .bg img {
+    object-fit: cover;
+    width: 729px;
+    height: 665px;
+  }
+  .bg {
+    position: absolute;
+    left: 0%;
+    top: 100%;
+  }
+  section.secodsecond {
+    margin-top: 80%;
+  }
+  p.secondpara {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 2;
+  }
+  .uidesing {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    width: 50%;
+    margin: 25px 0;
+    /* justify-content: center; */
+  }
+  /* third */
+  .aboutblavk {
+    padding: 30px 40px;
+    width: 72%;
+    position: absolute;
+    top: 67%;
+    background: #f2f2f2;
+    left: 28%;
+    border-radius: 27px;
+}
+img.blackhood {
+    width: 561px;
+    height: 344px;
+    position: relative;
+    left: 14%;
+    bottom: 118px;
+    border-radius: 28px;
+}
+.aboutblavk {
+    padding: 30px 40px;
+    width: 72%;
+    position: absolute;
+    top: 67%;
+    background: #f2f2f2;
+    left: 28%;
+    border-radius: 27px;
+}
+/* fourth */
+.fourth {
+    padding-top: 50px;
+    background: #f2f2f2;
+    margin-top: 20%;
+}
+.left1 {
+    padding: 30px 0;
+    width: 100%;
+    margin-top: 11%;
+}
+.twotyp {
+    display: flex;
+    align-items: baseline;
+    padding: 10px 30px;
+    border-bottom: 2px ridge;
+    width: 49%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.right1 {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+h6.terri {
+    margin-top: 20px;
+}
+.twosect {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+/* fifth */
+
+
+h2.capible {
+    width: 100%;
+    line-height: 1.1;
+    position: relative;
+    top: 115px;
+}
+.blabk2 {
+    /* margin-top: 100px; */
+    position: relative;
+    left: 65%;
+    top: 156px;
+}
+.smile2 {
+    width: 517px;
+    height: 374px;
+    object-fit: cover;
+    border-radius: 15px;
+    float: right;
+    position: relative;
+    right: 85px;
+    top: 15px;
+}
+.formfive {
+    padding: 30px;
+    width: 68%;
+    position: relative;
+    background: rgb(255, 255, 255);
+    margin-top: 345px;
+    border-radius: 15px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+/* sixth */
+h2.sixhead {
+    margin: 40px 0 !important;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+
+
+/* seventh */
+.sevengrid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+.flex22 {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient( 198deg, rgba(95, 68, 227, 0.9445028011204482) 20%, rgba(40, 178, 241, 0.9389005602240896) 61% );
+    width: 47%;
+    border-radius: 20px;
+}
+
+h3.age {
+    font-size: 72px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    color: white;
+    font-weight: 800;
+}
+
+/* eight */
+.phone-bar {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: -155px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.phoneflex {
+    padding: 20px;
+    text-align: center;
+    width: 48%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.frame-frist {
+    padding: 30px;
+    width: 50%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    h2 {
+        font-size: 36px;
+        font-family: "Roboto", sans-serif;
+    }
+    .left h1 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 60px;
+    margin-top: 30px;
+    position: relative;
+    animation: flo normal;
+    animation-duration: 2s;
+  }
+  .bg {
+    position: absolute;
+    left: 3%;
+    top: 100%;
+  }
+  .bg img {
+    object-fit: cover;
+    width: 390px;
+    height: 344px;
+  }
+  .uidesing {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    width: 100%;
+    margin: 25px 0;
+    justify-content: center;
+}
+p.secondpara {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+/* three */
+.aboutblavk {
+    padding: 20px 30px;
+    width: 77%;
+    position: absolute;
+    top: 64%;
+    background: #f2f2f2;
+    left: 1%;
+    border-radius: 27px;
+}
+img.blackhood {
+    width: 280px;
+    height: 201px;
+    position: relative;
+    left: 18%;
+    bottom: 98px;
+    border-radius: 28px;
+}
+.blanklinear {
+    width: 170px;
+    height: 172px;
+    background: linear-gradient( 286deg, rgba(95, 68, 227, 0.9445028011204482) 20%, rgba(40, 178, 241, 0.9389005602240896) 61% );
+    border-radius: 150px;
+}
+/* fourth */
+h3.diff {
+    font-size: 36px;
+    text-align: center;
+}
+.twotyp {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 2px ridge;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+p.parl1 {
+    line-height: 2;
+    margin-top: 25px;
+    text-align: center;
+}
+.right1 {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.fourth {
+    padding-top: 50px;
+    background: #f2f2f2;
+    margin-top: 70%;
+}
+h6.terri {
+    margin-top: 0px;
+}
+
+/* fifth */
+h2.capible {
+    width: 97%;
+    line-height: 1.1;
+    position: relative;
+    top: 115px;
+}
+.blabk2 {
+    /* margin-top: 100px; */
+    position: relative;
+    left: 48%;
+    top: 120px;
+}
+.smile2 {
+    width: 302px;
+    height: 288px;
+    object-fit: cover;
+    border-radius: 15px;
+    float: right;
+    position: relative;
+    right: 80px;
+    top: 15px;
+}
+.formfive {
+    padding: 20px;
+    width: 88%;
+    position: relative;
+    background: rgb(255, 255, 255);
+    margin-top: 260px;
+    border-radius: 15px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+/* sixth */
+.flexitom {
+    width: 100%;
+}
+.flexitom-text {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    line-height: 2;
+}
+
+
+/* seventh */
+.flex22 {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient( 198deg, rgba(95, 68, 227, 0.9445028011204482) 20%, rgba(40, 178, 241, 0.9389005602240896) 61% );
+    width: 100%;
+    border-radius: 20px;
+}
+
+p.p1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-top: 0px;
+    color: white;
+}
+h3.age {
+    font-size: 72px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 800;
+}
+
+p.sven-p {
+    text-align: center;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+    line-height: 1.6;
+}
+.frame-frist {
+    padding: 15px;
+    width: 100%;
+}
+.frame-one {
+    display: flex;
+    position: relative;
+    top: -100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.frame-decond {
+    padding: 15px;
+    width: 100%;
+}
+.phoneflex {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+}
+
+
+
+
+
